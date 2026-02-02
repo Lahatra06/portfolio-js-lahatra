@@ -1,0 +1,11 @@
+
+  # Create JavaScript Developer Portfolio
+
+  This is a code bundle for Create JavaScript Developer Portfolio. The original project is available at https://www.figma.com/design/3PghKkgAARh4CnInAZZo0P/Create-JavaScript-Developer-Portfolio.
+
+  ## Running the code
+
+  Run `npm i` to install the dependencies.
+
+  Run `npm run dev` to start the development server.
+  
