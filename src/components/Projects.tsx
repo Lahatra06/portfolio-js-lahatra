@@ -4,7 +4,7 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 export function Projects() {
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Innovation Campus System',
       description: 'A full-stack e-commerce solution with real-time inventory management, secure payment processing, and responsive design.',
       image: 'https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDF8fHx8MTc2NzcyODQ3MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
@@ -12,7 +12,7 @@ export function Projects() {
       live: 'https://example.com',
     },
     {
-      title: 'Task Management App',
+      title: 'Power Pulse Gym System',
       description: 'A collaborative task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
       image: 'https://images.unsplash.com/photo-1627634771121-fa3db5779f60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3R8ZW58MXx8fHwxNzY3NzMxMzY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       technologies: ['Vue.js', 'Firebase', 'Tailwind CSS'],
@@ -20,7 +20,7 @@ export function Projects() {
       live: 'https://example.com',
     },
     {
-      title: 'Weather Dashboard',
+      title: 'Arc App',
       description: 'A beautiful weather application providing detailed forecasts, interactive maps, and location-based weather alerts.',
       image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY3NzAwODIwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
       technologies: ['React', 'TypeScript', 'OpenWeather API'],

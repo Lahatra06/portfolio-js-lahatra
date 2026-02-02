@@ -17,19 +17,17 @@ export function About() {
           
           <div className="space-y-6">
             <p className="text-lg text-gray-700">
-              I'm a passionate JavaScript developer with over 5 years of experience building 
+              I'm a passionate JavaScript developer with over 2 years of experience building 
               modern web applications. My journey in web development started with a curiosity 
               about how things work on the internet, and it has evolved into a fulfilling career.
             </p>
             <p className="text-lg text-gray-700">
-              I specialize in creating responsive, user-friendly interfaces using React, Vue.js, 
+              I specialize in creating responsive, user-friendly interfaces using React, Next.js, 
               and other cutting-edge technologies. I'm committed to writing clean, maintainable 
               code and following best practices in software development.
             </p>
             <p className="text-lg text-gray-700">
-              When I'm not coding, you can find me contributing to open-source projects, 
-              learning new technologies, or sharing my knowledge through technical blogs 
-              and mentoring junior developers.
+              When I'm not coding, I try to make my entrepreneurship project in construction domain.
             </p>
             
             <div className="pt-6">

@@ -5,32 +5,27 @@ export function Skills() {
     {
       icon: <Code2 size={32} />,
       title: 'Frontend Development',
-      skills: ['React', 'Vue.js', 'TypeScript', 'JavaScript ES6+', 'HTML5', 'CSS3', 'Tailwind CSS'],
+      skills: ['React', 'Next.js', 'TypeScript', 'JavaScript ES6+', 'HTML5', 'CSS3'],
     },
     {
       icon: <Server size={32} />,
       title: 'Backend & APIs',
-      skills: ['Node.js', 'Express', 'REST APIs', 'GraphQL', 'WebSockets'],
+      skills: ['Node.js', 'Nest.js', 'REST APIs', 'PHP', 'Spring Boot', 'Java'],
     },
     {
       icon: <Database size={32} />,
       title: 'Databases',
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Firebase'],
+      skills: ['MongoDB', 'PostgreSQL', 'MySQL'],
     },
     {
       icon: <GitBranch size={32} />,
       title: 'Tools & Workflow',
-      skills: ['Git', 'GitHub', 'Docker', 'Webpack', 'Vite', 'npm/yarn'],
-    },
-    {
-      icon: <Zap size={32} />,
-      title: 'Performance',
-      skills: ['Code Optimization', 'Lazy Loading', 'Caching', 'Bundle Optimization'],
+      skills: ['Git', 'GitHub', 'GitLab', 'Webpack', 'Vite', 'npm'],
     },
     {
       icon: <Palette size={32} />,
       title: 'Design & UX',
-      skills: ['Responsive Design', 'Accessibility', 'User Experience', 'Figma'],
+      skills: ['Responsive Design', 'User Experience', 'Figma'],
     },
   ];
 

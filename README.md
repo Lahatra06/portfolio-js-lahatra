@@ -1,7 +1,7 @@
 
-  # Create JavaScript Developer Portfolio
+  # lahatra portfolio
 
-  This is a code bundle for Create JavaScript Developer Portfolio. The original project is available at https://www.figma.com/design/3PghKkgAARh4CnInAZZo0P/Create-JavaScript-Developer-Portfolio.
+  This is a code bundle for lahatra portfolio. The original project is available at https://www.figma.com/design/3PghKkgAARh4CnInAZZo0P/Create-JavaScript-Developer-Portfolio.
 
   ## Running the code
 

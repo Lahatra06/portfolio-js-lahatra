@@ -1,9 +1,12 @@
-import { Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
-import { motion } from 'motion/react';
+import { Github, Linkedin, Mail, ChevronDown, Gitlab } from "lucide-react";
+import { motion } from "motion/react";
 
 export function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 via-white to-purple-50 pt-16">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-50 via-white to-purple-50 pt-16"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
           <motion.div
@@ -12,14 +15,16 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-5xl md:text-7xl mb-6">
-              Hi, I'm <span className="text-indigo-600">RABENARIVO Lahatra</span>
+              Hi, I'm{" "}
+              <span className="text-indigo-600">RABENARIVO Lahatra</span>
             </h1>
             <p className="text-2xl md:text-3xl text-gray-600 mb-8">
               JavaScript Developer
             </p>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-12">
-              I build elegant, performant web applications using modern JavaScript frameworks.
-              Passionate about creating seamless user experiences and clean, maintainable code.
+              I build elegant, performant web applications using modern
+              JavaScript frameworks. Passionate about creating seamless user
+              experiences and clean, maintainable code.
             </p>
           </motion.div>
 
@@ -30,7 +35,7 @@ export function Hero() {
             className="flex justify-center gap-6 mb-12"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/Lahatra06"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-gray-900 text-white rounded-full hover:bg-gray-700 transition-colors"
@@ -39,7 +44,16 @@ export function Hero() {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://gitlab.com/Lahatra06"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-gray-900 text-white rounded-full hover:bg-gray-700 transition-colors"
+              aria-label="GitLab"
+            >
+              <Gitlab size={24} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lahatra-rabenarivo"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors"
@@ -48,7 +62,7 @@ export function Hero() {
               <Linkedin size={24} />
             </a>
             <a
-              href="mailto:alex@example.com"
+              href="mailto:rabenarivolahatra@gmail.com"
               className="p-3 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors"
               aria-label="Email"
             >

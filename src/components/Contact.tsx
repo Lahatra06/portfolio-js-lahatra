@@ -41,8 +41,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg mb-1">Email</h3>
-                  <a href="mailto:alex.morgan@example.com" className="text-gray-600 hover:text-indigo-600">
-                    alex.morgan@example.com
+                  <a href="mailto:rabenarivolahatra@gmail.com" className="text-gray-600 hover:text-indigo-600">
+                    rabenarivolahatra@gmail.com
                   </a>
                 </div>
               </div>
@@ -53,8 +53,8 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg mb-1">Phone</h3>
-                  <a href="tel:+1234567890" className="text-gray-600 hover:text-indigo-600">
-                    +1 (234) 567-890
+                  <a href="tel:+261344637109" className="text-gray-600 hover:text-indigo-600">
+                    +261 34 46 371 09
                   </a>
                 </div>
               </div>
@@ -65,7 +65,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg mb-1">Location</h3>
-                  <p className="text-gray-600">San Francisco, CA</p>
+                  <p className="text-gray-600">Lot IVB 38 AMbohimanala Andoharanofotsy, Antananarivo</p>
                 </div>
               </div>
             </div>
