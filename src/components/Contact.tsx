@@ -1,21 +1,23 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
-import { useState } from 'react';
+import { Mail, MapPin, Phone } from "lucide-react";
+import { useState } from "react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+    alert("Thank you for your message! I will get back to you soon.");
+    setFormData({ name: "", email: "", message: "" });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -26,14 +28,15 @@ export function Contact() {
     <section id="contact" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl text-center mb-16">Get In Touch</h2>
-        
+
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <p className="text-lg text-gray-700 mb-8">
-              I'm always interested in hearing about new projects and opportunities. 
-              Whether you have a question or just want to say hi, feel free to reach out!
+              I'm always interested in hearing about new projects and
+              opportunities. Whether you have a question or just want to say hi,
+              feel free to reach out!
             </p>
-            
+
             <div className="space-y-6">
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-indigo-100 text-indigo-600 rounded-lg">
@@ -41,94 +44,45 @@ export function Contact() {
                 </div>
                 <div>
                   <h3 className="text-lg mb-1">Email</h3>
-                  <a href="mailto:rabenarivolahatra@gmail.com" className="text-gray-600 hover:text-indigo-600">
+                  <a
+                    href="mailto:rabenarivolahatra@gmail.com"
+                    className="text-gray-600 hover:text-indigo-600"
+                  >
                     rabenarivolahatra@gmail.com
                   </a>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-indigo-100 text-indigo-600 rounded-lg">
                   <Phone size={24} />
                 </div>
                 <div>
                   <h3 className="text-lg mb-1">Phone</h3>
-                  <a href="tel:+261344637109" className="text-gray-600 hover:text-indigo-600">
+                  <a
+                    href="tel:+261344637109"
+                    className="text-gray-600 hover:text-indigo-600"
+                  >
                     +261 34 46 371 09
                   </a>
                 </div>
               </div>
-              
+
               <div className="flex items-start gap-4">
                 <div className="p-3 bg-indigo-100 text-indigo-600 rounded-lg">
                   <MapPin size={24} />
                 </div>
                 <div>
                   <h3 className="text-lg mb-1">Location</h3>
-                  <p className="text-gray-600">Lot IVB 38 AMbohimanala Andoharanofotsy, Antananarivo</p>
+                  <p className="text-gray-600">
+                    Lot IVB 38 AMbohimanala Andoharanofotsy, Antananarivo
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          
-          <div>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm mb-2 text-gray-700">
-                  Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent outline-none"
-                  placeholder="Your name"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="email" className="block text-sm mb-2 text-gray-700">
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent outline-none"
-                  placeholder="your.email@example.com"
-                />
-              </div>
-              
-              <div>
-                <label htmlFor="message" className="block text-sm mb-2 text-gray-700">
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-600 focus:border-transparent outline-none resize-none"
-                  placeholder="Your message..."
-                />
-              </div>
-              
-              <button
-                type="submit"
-                className="w-full px-8 py-4 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
-              >
-                Send Message
-              </button>
-            </form>
-          </div>
+
+          <div></div>
         </div>
       </div>
     </section>
