@@ -29,7 +29,7 @@ export function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl text-center mb-16">Get In Touch</h2>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid">
           <div>
             <p className="text-lg text-gray-700 mb-8">
               I'm always interested in hearing about new projects and
@@ -81,8 +81,6 @@ export function Contact() {
               </div>
             </div>
           </div>
-
-          <div></div>
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ChevronDown, Gitlab } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown, Gitlab, DownloadIcon } from "lucide-react";
 import { motion } from "motion/react";
 
 export function Hero() {
@@ -81,6 +81,14 @@ export function Hero() {
             >
               View My Work
               <ChevronDown size={20} />
+            </a>
+            &nbsp;&nbsp;
+            <a
+                href="/CV-RABENARIVO-Lahatra.pdf"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-colors"
+            >
+              Download my resume
+              <DownloadIcon size={20} />
             </a>
           </motion.div>
         </div>

@@ -5,25 +5,25 @@ export function Projects() {
   const projects = [
     {
       title: 'Innovation Campus System',
-      description: 'A full-stack e-commerce solution with real-time inventory management, secure payment processing, and responsive design.',
+      description: 'The system manages the entire university lifecycle — from student registration and admissions to all academic and administrative modules, including course management, scheduling, examinations, grading, attendance, and overall campus operations.',
       image: 'https://images.unsplash.com/photo-1658297063569-162817482fb6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjB3ZWJzaXRlfGVufDF8fHx8MTc2NzcyODQ3MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com',
+      technologies: ['Next.js', 'NestJS', 'MongoDB'],
+      github: 'https://gitlab.com',
       live: 'https://example.com',
     },
     {
       title: 'Power Pulse Gym System',
-      description: 'A collaborative task management application with drag-and-drop functionality, real-time updates, and team collaboration features.',
+      description: 'The system streamlines gym operations, including member registration and subscription management, class scheduling, trainer assignments, attendance tracking, payment management, and overall fitness center administration.',
       image: 'https://images.unsplash.com/photo-1627634771121-fa3db5779f60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkZXZlbG9wbWVudCUyMHByb2plY3R8ZW58MXx8fHwxNzY3NzMxMzY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      technologies: ['Vue.js', 'Firebase', 'Tailwind CSS'],
-      github: 'https://github.com',
+      technologies: ['Next.js', 'NestJS', 'MongoDB'],
+      github: 'https://gitlab.com',
       live: 'https://example.com',
     },
     {
       title: 'Arc App',
-      description: 'A beautiful weather application providing detailed forecasts, interactive maps, and location-based weather alerts.',
+      description: 'Arc App is an archive management application designed to organize, store, track, and manage physical and digital records efficiently.',
       image: 'https://images.unsplash.com/photo-1609921212029-bb5a28e60960?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBkZXNpZ258ZW58MXx8fHwxNzY3NzAwODIwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-      technologies: ['React', 'TypeScript', 'OpenWeather API'],
+      technologies: ['HTML', 'CSS', 'Spring Boot'],
       github: 'https://github.com',
       live: 'https://example.com',
     },
@@ -73,7 +73,7 @@ export function Projects() {
                     <Github size={20} />
                     Code
                   </a>
-                  <a
+                  {/* <a
                     href={project.live}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -81,7 +81,7 @@ export function Projects() {
                   >
                     <ExternalLink size={20} />
                     Live Demo
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

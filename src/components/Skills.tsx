@@ -10,7 +10,7 @@ export function Skills() {
     {
       icon: <Server size={32} />,
       title: 'Backend & APIs',
-      skills: ['Node.js', 'Nest.js', 'REST APIs', 'PHP', 'Spring Boot', 'Java'],
+      skills: ['Node.js', 'Nest.js', 'REST APIs', 'PHP', 'Symfony','Spring Boot', 'Java'],
     },
     {
       icon: <Database size={32} />,
